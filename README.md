@@ -1,6 +1,6 @@
 # Hi there I'm genr234 👋
 
-### 🔭 I’m currently working on school projects
+### 🔭 I’m currently working on personal projects
 
 ### 💻 My skills
 
