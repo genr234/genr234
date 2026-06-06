@@ -20,4 +20,6 @@
     </table>
     <hr>
     <img src="https://github-readme-stats.hackclub.dev/api/wakatime?username=1591&api_domain=hackatime.hackclub.com&theme=dark&custom_title=Coding+Stats&layout=compact&cache_seconds=0&langs_count=8">
+    <br>
+    <img src="https://count.getloli.com/@:genr234?theme=capoo-2">
 </div>
