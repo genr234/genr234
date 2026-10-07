@@ -1,25 +1,21 @@
 <div align="center">
-    <img src="https://files.catbox.moe/kv3z65.png">
+    <img src="./assets/hello.svg" alt="hello i'm genr234" width="560">
     <br>
-    <a href="https://genr234.com"><b>Check out my personal website!</b></a>
-    <hr>
-    <p><b>Some projects i've been working on</b></p>
-    <table>
-        <tr>
-            <td align="center"><img src="https://files.catbox.moe/9slvmz.gif"></td>
-            <td align="center"><img src="https://files.catbox.moe/3nfjhe.png" width="250" height="250"></td>
-        </tr>
-        <tr>
-            <td align="center"><b>Openseal</b></td>
-            <td align="center"><b>Aerie</b></td>
-        </tr>
-        <tr>
-            <td align="center">Alternative to a certain AI agent featuring an improved memory system, safer skills and better conversational capabilities</td>
-            <td align="center">Small game engine inspired by <a href="https://bitsy.org/">Bitsy</a> and <a href="https://www.rpgmakerweb.com/">RPG Maker</a> written in Zig</td>
-        </tr>
-    </table>
-    <hr>
-    <img src="https://github-readme-stats.hackclub.dev/api/wakatime?username=1591&api_domain=hackatime.hackclub.com&theme=dark&custom_title=Coding+Stats&layout=compact&cache_seconds=0&langs_count=8">
+    <a href="https://genr234.com"><img src="./assets/site-link.svg" alt="Check out my personal website! genr234.com" width="100%"></a>
+    <br><br>
+    <img src="./assets/projects-header.svg" alt="Projects: some projects i've been working on" width="100%">
+<!-- PROJECTS:START -->
+<h3><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/code-dark.svg"><img src="./assets/icons/code-light.svg" width="24" height="24" align="top" alt=""></picture> Coding</h3>
+<p>
+<a href="https://stardew.genr234.com/"><img src="./assets/projects/stardew.svg" alt="Stardew.js" width="49%"></a>
+<a href="https://milkyway.hackclub.com"><img src="./assets/projects/milkyway.svg" alt="Milkyway" width="49%"></a>
+</p>
+<h3><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/icons/users-dark.svg"><img src="./assets/icons/users-light.svg" width="24" height="24" align="top" alt=""></picture> Hackathons</h3>
+<p>
+<a href="https://horizons.hackclub.com/"><img src="./assets/projects/europa.svg" alt="Horizons Europa" width="49%"></a>
+<a href="https://campfire.hackclub.com/acireale"><img src="./assets/projects/campfire.svg" alt="Campfire Acireale" width="49%"></a>
+</p>
+<!-- PROJECTS:END -->
     <br>
-    <img src="https://count.getloli.com/@:genr234?theme=capoo-2">
+    <img src="./assets/coding-stats.svg" alt="Coding stats" width="495">
 </div>

@@ -1,0 +1,15 @@
+{
+	"name": "genr234-profile",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"update": "node scripts/update-readme.mjs",
+		"banners": "node scripts/render-banners.mjs"
+	},
+	"dependencies": {
+		"sharp": "^0.34.4"
+	},
+	"devDependencies": {
+		"opentype.js": "^1.3.4"
+	}
+}
