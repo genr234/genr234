@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="220" viewBox="0 0 495 220" role="img" aria-label="Coding stats: 540h 52m 28s total">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="220" viewBox="0 0 495 220" role="img" aria-label="Coding stats: 569h 7s total">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5129a0"/><stop offset="1" stop-color="#5a16b8"/></linearGradient>
 <clipPath id="win"><rect width="495" height="220" rx="16"/></clipPath>
@@ -12,12 +12,12 @@ text{font-family:"DM Sans",-apple-system,"Segoe UI",Helvetica,sans-serif;fill:#f
 <rect width="495" height="38" fill="#5626a1"/>
 <text x="24" y="24" class="label">CODING STATS</text>
 <text x="445" y="25" class="small">—</text><text x="467" y="25" class="small">×</text>
-<text x="24" y="92" class="big">540h 52m</text>
+<text x="24" y="92" class="big">569h 0m</text>
 <text x="24" y="112" class="small dim">all time on Hackatime</text>
-<text x="471" y="92" class="small" text-anchor="end">18h 2m this week</text>
-<text x="471" y="112" class="small dim" text-anchor="end">12 day streak</text>
+<text x="471" y="92" class="small" text-anchor="end">19h 26m this week</text>
+<text x="471" y="112" class="small dim" text-anchor="end">3 day streak</text>
 <rect x="24" y="128" width="447" height="8" rx="4" fill="#ffffff22"/>
-<g clip-path="url(#bar)"><rect x="24.0" y="128" width="144.8" height="8" fill="#3178c6"/><rect x="170.8" y="128" width="101.5" height="8" fill="#ff3e00"/><rect x="274.3" y="128" width="64.4" height="8" fill="#f1e05a"/><rect x="340.7" y="128" width="61.0" height="8" fill="#ec915c"/><rect x="403.7" y="128" width="31.7" height="8" fill="#083fa1"/><rect x="437.4" y="128" width="31.6" height="8" fill="#e34c26"/></g>
-<circle cx="28" cy="158" r="4" fill="#3178c6"/><text x="38" y="162" class="small">TypeScript <tspan class="dim">128h 39m</tspan></text><circle cx="180" cy="158" r="4" fill="#ff3e00"/><text x="190" y="162" class="small">Svelte <tspan class="dim">90h 39m</tspan></text><circle cx="332" cy="158" r="4" fill="#f1e05a"/><text x="342" y="162" class="small">JavaScript <tspan class="dim">58h 8m</tspan></text><circle cx="28" cy="180" r="4" fill="#ec915c"/><text x="38" y="184" class="small">Zig <tspan class="dim">55h 13m</tspan></text><circle cx="180" cy="180" r="4" fill="#083fa1"/><text x="190" y="184" class="small">Markdown <tspan class="dim">29h 28m</tspan></text><circle cx="332" cy="180" r="4" fill="#e34c26"/><text x="342" y="184" class="small">HTML <tspan class="dim">29h 28m</tspan></text>
+<g clip-path="url(#bar)"><rect x="24.0" y="128" width="139.4" height="8" fill="#3178c6"/><rect x="165.4" y="128" width="97.3" height="8" fill="#ff3e00"/><rect x="264.7" y="128" width="62.9" height="8" fill="#f1e05a"/><rect x="329.6" y="128" width="58.5" height="8" fill="#ec915c"/><rect x="390.0" y="128" width="46.3" height="8" fill="#083fa1"/><rect x="438.3" y="128" width="30.7" height="8" fill="#e34c26"/></g>
+<circle cx="28" cy="158" r="4" fill="#3178c6"/><text x="38" y="162" class="small">TypeScript <tspan class="dim">129h 7m</tspan></text><circle cx="180" cy="158" r="4" fill="#ff3e00"/><text x="190" y="162" class="small">Svelte <tspan class="dim">90h 39m</tspan></text><circle cx="332" cy="158" r="4" fill="#f1e05a"/><text x="342" y="162" class="small">JavaScript <tspan class="dim">59h 13m</tspan></text><circle cx="28" cy="180" r="4" fill="#ec915c"/><text x="38" y="184" class="small">Zig <tspan class="dim">55h 13m</tspan></text><circle cx="180" cy="180" r="4" fill="#083fa1"/><text x="190" y="184" class="small">Markdown <tspan class="dim">44h 7m</tspan></text><circle cx="332" cy="180" r="4" fill="#e34c26"/><text x="342" y="184" class="small">HTML <tspan class="dim">29h 48m</tspan></text>
 </g>
 </svg>
