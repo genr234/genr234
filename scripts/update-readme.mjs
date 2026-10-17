@@ -2,8 +2,13 @@
 // Every card is a self-contained SVG (GitHub won't load external resources inside
 // SVGs), so photos, icons and fonts are fetched, shrunk with sharp and inlined.
 // Runs in CI (.github/workflows/update-readme.yml).
+import { createRequire } from "node:module";
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import sharp from "sharp";
+
+const require = createRequire(import.meta.url);
+// cdn.simpleicons.org answers GitHub-hosted runners with 403. The same SVGs are in the npm package.
+const SIMPLE_ICON = /^https:\/\/cdn\.simpleicons\.org\/([a-z0-9]+)(?:\/([0-9a-fA-F]{3,8}))?(?:\.svg)?\/?(?:\?.*)?$/;
 
 const SITE = process.env.SITE_URL ?? "https://www.genr234.com";
 const PROJECTS_URL = process.env.PROJECTS_URL ?? `${SITE}/projects.json`;
@@ -32,7 +37,26 @@ async function get(url, init) {
 	return res;
 }
 const getJson = async (url) => (await get(url, { headers: { Accept: "application/json" } })).json();
-const getBuffer = async (url) => Buffer.from(await (await get(url)).arrayBuffer());
+
+let simpleIconHex;
+function simpleIconColor(slug) {
+	if (!simpleIconHex) {
+		const icons = require("simple-icons/icons.json");
+		simpleIconHex = new Map(icons.map((icon) => [icon.slug, icon.hex]));
+	}
+	const hex = simpleIconHex.get(slug);
+	if (!hex) throw new Error(`No simple-icons entry for ${slug}`);
+	return hex;
+}
+
+async function getBuffer(url) {
+	const match = SIMPLE_ICON.exec(url);
+	if (!match) return Buffer.from(await (await get(url)).arrayBuffer());
+	const [, slug, color] = match;
+	const svg = await readFile(require.resolve(`simple-icons/icons/${slug}.svg`), "utf8");
+	const hex = color ?? simpleIconColor(slug);
+	return Buffer.from(svg.replace("<svg ", `<svg fill="#${hex}" `));
+}
 const dataUri = (mime, buf) => `data:${mime};base64,${buf.toString("base64")}`;
 
 const esc = (s) =>
