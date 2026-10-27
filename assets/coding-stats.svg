@@ -14,7 +14,7 @@ text{font-family:"DM Sans",-apple-system,"Segoe UI",Helvetica,sans-serif;fill:#f
 <text x="445" y="25" class="small">—</text><text x="467" y="25" class="small">×</text>
 <text x="24" y="92" class="big">594h 42m</text>
 <text x="24" y="112" class="small dim">all time on Hackatime</text>
-<text x="471" y="92" class="small" text-anchor="end">12h 30m this week</text>
+<text x="471" y="92" class="small" text-anchor="end">10h 45m this week</text>
 <text x="471" y="112" class="small dim" text-anchor="end">6 day streak</text>
 <rect x="24" y="128" width="447" height="8" rx="4" fill="#ffffff22"/>
 <g clip-path="url(#bar)"><rect x="24.0" y="128" width="137.0" height="8" fill="#3178c6"/><rect x="163.0" y="128" width="95.6" height="8" fill="#ff3e00"/><rect x="260.6" y="128" width="62.3" height="8" fill="#f1e05a"/><rect x="324.9" y="128" width="57.4" height="8" fill="#ec915c"/><rect x="384.4" y="128" width="48.0" height="8" fill="#083fa1"/><rect x="434.4" y="128" width="34.6" height="8" fill="#e34c26"/></g>
